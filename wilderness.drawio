@@ -1,0 +1,161 @@
+<mxfile host="65bd71144e">
+    <diagram id="dlrvD-NDqklQa-h6WVWk" name="Page-1">
+        <mxGraphModel dx="2066" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Bjorns Wilderness Chapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-92.5" y="-1080" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="totalTrailMiles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Data for trials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="longTrail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="shortTrail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="leastAndMostExpensive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-70" y="640" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="trailDetailsBjorn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Functions for trails" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-85" y="-40" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Functions for rivers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="-1060" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="totalRiverMiles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="longRiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="shortRiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="leastAndMostExpensiveRiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="-440" width="175" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="riverDetailsBjorn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Data for rivers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="-600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.05;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="110" as="sourcePoint"/>
+                        <mxPoint x="260" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="&amp;nbsp;for loop that adds together every trail length in the array and retuns the total length&lt;br&gt;total = trail.length+=total&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="50" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;entryX=-0.071;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="230" as="sourcePoint"/>
+                        <mxPoint x="100" y="180" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="for loop that finds the trail with the greatest length.&lt;br&gt;if(trail.length&amp;gt;longest) the functionn will return the longest length." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="290" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;entryX=0.229;entryY=1.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="340" as="sourcePoint"/>
+                        <mxPoint x="100" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&amp;nbsp;for loop that finds the trail with the shortest length.&lt;br&gt;if(trail.length&amp;lt;shortest) the function will return the shortest length" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="470" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="660" as="sourcePoint"/>
+                        <mxPoint x="440" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&amp;nbsp;for loop that finds the least and most expensive trails.&amp;nbsp;&lt;br&gt;&amp;nbsp;if(trail.price.length === 1) then the function will retun the least expensive trails.&lt;br&gt;if(trail.price.length &amp;gt;=4) then the function will retun the most expensive trails" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="650" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;entryX=0.95;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="850" as="sourcePoint"/>
+                        <mxPoint x="110" y="800" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="for loop that assign the elements of the trail objects to new variables and put them in a literal string that returns the desired string output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="850" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=classic;html=1;entryX=0.583;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="-840" as="sourcePoint"/>
+                        <mxPoint x="510" y="-890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="for loop that&amp;nbsp; adds together every river length and retuns the total river lengths combined.&lt;br&gt;total = river.length =+ total" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="-935" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="12" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="-770" as="sourcePoint"/>
+                        <mxPoint x="510" y="-820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="for loops that finds the river with the greatest length.&lt;br&gt;if(river.length&amp;gt;longest) the function&amp;nbsp; will return the longest river&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="-760" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.025;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="13" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="-590" as="sourcePoint"/>
+                        <mxPoint x="510" y="-640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="for loop that finds the river with the shortrst length.&lt;br&gt;if(river.length&amp;lt;shortest) the function will return the shortest length" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="-570" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;entryX=1.075;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="-410" as="sourcePoint"/>
+                        <mxPoint x="510" y="-580" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="-410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="for loop that finds the most and least expensive rivers.&amp;nbsp;&lt;br&gt;if(river.price === 1) the function will return the names of those rivers.&lt;br&gt;if(river.price&amp;gt;=4) the function will return the names of those rivers." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="-400" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;html=1;entryX=0.608;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="-380" as="sourcePoint"/>
+                        <mxPoint x="510" y="-430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="-300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="for loop that assigns new names to elements of objects in the rivers array. Puts the new assigned names in a literal string to return desired output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="-250" width="190" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
